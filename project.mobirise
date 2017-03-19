@@ -1,0 +1,162 @@
+{
+  "settings": {
+    "name": "PKL Voimantie",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {}
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 7,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#4c6972"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#efefef"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#e5e5e5"
+            },
+            ".navbar-toggler": {
+              "color": "#4c6972"
+            }
+          },
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-4",
+          "_params": {
+            "bgColor": "#efefef",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#4c6972",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pkl-logo-kuvio-154x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-primary\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PKL Voimantie</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">PALVELUT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Akupunktio</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Laserakupunktio</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Kasvoakupunktio</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Osteopatia</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Koiraosteopatia</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Koira-akupunktio</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HINNASTO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">YHTEYSTIEDOT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info\" href=\"https://mobirise.com/\">facebook</a></li>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/slide1-2000x1338.jpg",
+                "contentAlign": "right",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Terveyden ja hyvinvoinnin ylläpitoa ja hoitoa ammattitaidolla&nbsp;",
+                "showText": false,
+                "text": "",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">VARAA AIKASI TÄSTÄ</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide2-2000x1333.jpg",
+                "contentAlign": "left",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Osteopaattinen hoitomenetelmä tähtää kehon sisäiseen tasapainoon ja luonnolliseen liikkuvuuteen<br>",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">VARAA AIKASI TÄSTÄ</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide3-2000x1333.jpg",
+                "contentAlign": "center",
+                "overlay": true,
+                "showTitle": true,
+                "title": "Tarjoamme laadukkaita akupunktio ja osteopatia hoitoja",
+                "showText": false,
+                "text": "",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">VARAA AIKASI TÄSTÄ</a> "
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-5",
+          "articleLayout": false
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-6",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Rajatorpantie 12,\n01600 VANTAA",
+              "placeId": "ChIJl3YPZqr3jUYRdb5HJxtVTks",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>OSOITE</strong><br>Rajatorpantie 12<br>01600 VANTAA<br><br>\n<strong>YHTEYS</strong><br>050 374 0888<br>info@voimantie.fi<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINJIT</strong></p><ul class=\"mbr-contacts__list\"><li><br></li><li><a href=\"mailto:info@voimantie.fi\" class=\"text-danger\">info@voimantie.fi</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"voimantie.varaaverkossa.fi\" target=\"_blank\" class=\"text-danger\">Ajanvaraus netin kautta</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>"
+        }
+      ]
+    }
+  }
+}
