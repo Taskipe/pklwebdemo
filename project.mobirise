@@ -86,9 +86,9 @@
             "paddingBottom": 3,
             "slides": [
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/slide1-2000x1338.jpg",
-                "contentAlign": "right",
+                "contentAlign": "center",
                 "overlay": true,
                 "showTitle": true,
                 "title": "Terveyden ja hyvinvoinnin ylläpitoa ja hoitoa ammattitaidolla&nbsp;",
@@ -98,9 +98,9 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">VARAA AIKASI TÄSTÄ</a> "
               },
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/slide2-2000x1333.jpg",
-                "contentAlign": "left",
+                "contentAlign": "center",
                 "overlay": true,
                 "showTitle": true,
                 "title": "Osteopaattinen hoitomenetelmä tähtää kehon sisäiseen tasapainoon ja luonnolliseen liikkuvuuteen<br>",
@@ -127,7 +127,12 @@
             "showBullets": true
           },
           "_anchor": "slider-5",
-          "articleLayout": false
+          "articleLayout": false,
+          "_styles": {
+            "H1": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_tags": [
